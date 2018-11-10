@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <title>たぬき暗号</title>
+  <script>
+    $(function () {
+      $('#answer').hover(
+        function () {
+          $('span').hide();
+        },
+        function () {
+          $('span').show();
+        }
+      );
+    });
+  </script>
+</head>
+
+<body>
+  <p>たぬき暗号（<em id="answer">ここにマウスを重ねると解読します</em>）</p>
+  <p>ぼ<span>た</span>く<span>た</span>はき<span>た</span>みをあ<span>た</span>いしていま<span>た</span>す<span>た</span>。</p>
+</body>
+
+</html>
